@@ -8,14 +8,14 @@
 # Use a dictionary to store all the profile information.
 # Students should easily customize the values in this section.
 PROFILE_DATA = {
-    "name": "Your Name Here",
+    "name": "Aiden",
     "title": "High School Python Enthusiast",
-    "year_in_school": "Junior",
+    "year_in_school": "Softmore",
     "favorite_project": "The 'Guess the Number' game",
     "favorite_food": "Pizza",
     "learning_goals": ["Mastering functions", "Understanding OOP", "Building a website"],
-    "github_username": "your-github-handle",
-    "contact_email": "your_email@example.com"
+    "github_username": "AidenTrout825",
+    "contact_email": "aidentrout21@gmail.com"
 }
 
 # --- 2. Styling and Formatting ---
