@@ -1,0 +1,28 @@
+import random
+
+MIN = 1
+MAX = 20
+MAX_GUESSES = 7
+number = random.randint(MIN, MAX)
+num_guesses = 0
+guess = MAX+1
+print(number)
+
+
+print(f"Pick a number between {MIN} and {MAX}")
+
+while (guess < MIN or guess > MAX) :
+  guess = int(input("> "))
+  while (num_guesses <= MAX_GUESSES) :
+   guess = input (" > ")
+
+  print(guess)
+
+
+
+
+
+
+
+
+  num_guesses += 1
